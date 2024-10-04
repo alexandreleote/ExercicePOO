@@ -41,12 +41,12 @@ class Auteur {
     }
 
     // Ajout d'un livre
-    public function addLivre(Livre $livre) : void {
+    public function addLivre(Livre $livre) {
         $this->_livres[] = $livre;
     }
 
     // Afficher la bibliographie de l'auteur
-    public function afficherBibliographie() : void {
+    public function afficherBibliographie() {
         echo "<b>Livres de " . $this->_prenom . " " . $this->_nom . "</b><br>";
         foreach ($this->_livres as $livre) {
             echo $livre . "<br>"; // Appelle le __toString() de Livre
