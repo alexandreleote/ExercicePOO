@@ -17,16 +17,18 @@ $compte3 = new Compte("Euro Compte", 11952.05, " €", $titulaire1);
 $compte4 = new Compte("Livret A", 5000, " €", $titulaire2);
 
 
-// var_dump($titulaire);
+echo $titulaire1->afficherCompte();
+echo "<br>";
+echo $titulaire2->afficherCompte();
+echo "<br>";
+echo $compte1->crediterCompte(200);
+echo "<br>";
+echo $compte3->debiterCompte(700);
+echo "<br>";
+echo $compte3->virementCompte(500, $compte4);
+echo "<br>";
 
-// var_dump($compte1);
-
-$titulaire1->afficherCompte();
+echo $titulaire1->afficherCompte();
 echo "<br>";
-$compte1->crediterCompte(200);
+echo $titulaire2->afficherCompte();
 echo "<br>";
-$compte3->debiterCompte(700);
-echo "<br>";
-$compte3->virementCompte(500, $compte4);
-echo "<br>";
-$titulaire2->afficherCompte();
