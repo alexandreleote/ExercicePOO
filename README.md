@@ -9,7 +9,7 @@ Comprendre les principes de la programmation orienté objet (POO).<br>
 Concevoir des classes adaptées à un besoin.<br>
 Utiliser les concepts fondamentaux de la POO.<br>
 Instancier et manipuler des objets.<br>
-Écrire u code clair et maintenable.<br>
+Écrire un code clair et maintenable.<br>
 S'initier à la gestion des relations entre objets.<br>
 Se concentrer sur la logique métier.<br>
 Développer un raisonnement modulaire et évolutif.
