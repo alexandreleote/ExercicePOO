@@ -25,7 +25,7 @@ Outils :
 
 ## 💡 Concepts clés abordés
 
-- Strucutre de base d'une classe
+- Structure de base d'une classe
 - Encapsulation et visibilité
 - Instanciation et manipulation d'objets
 - Méthodes et comportements
